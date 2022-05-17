@@ -12,10 +12,7 @@ Bisogna includere la libreria per la gestione dell'interfaccia I2C di comunicazi
 
     #include <Wire.h>
 
-che come sappiamo prevede l'utilizzo di due piedini del microcontrollore:
-
-D15 SCL Serial Clock
-D14 SDA Serial Data
+che come sappiamo prevede l'utilizzo di due piedini del microcontrollore D15 per SCL Serial Clock e D14 per SDA. 
 
 Il microcontrollore scrive i dati da trasmettere e legge i dati ricevuti tramite il transceiver utilizzando il modulo di comunicazione sincrono ad alta velocità SPI (Serial Peripheral Interface)
 
